@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Caliburn.Micro.ReactiveUI</id>
+    <version>$version$</version>
+    <authors>Gordon Watts</authors>
+    <owners>Gordon Watts</owners>
+    <licenseUrl>https://github.com/gordonwatts/CERNSSO/blob/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/gordonwatts/Caliburn.Micro.ReactiveUI</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Some ease-of-use extensions to help with Caliburn.Micro and ReactiveUI</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>ReactiveUI PCL</tags>
+    <dependencies>
+        <dependency id="Caliburn.Micro.Core" version="2.0.0-rc" />
+        <dependency id="reactiveui-core" version="5.99.0-beta" />
+        <dependency id="Rx-Core" version="2.2.2" />
+        <dependency id="Rx-Interfaces" version="2.2.2" />
+        <dependency id="Rx-Linq" version="2.2.2" />
+        <dependency id="Rx-Main" version="2.2.2" />
+        <dependency id="Rx-PlatformServices" version="2.2.2" />
+        <dependency id="Splat" version="1.1.1" />
+    </dependencies>
+  </metadata>
+  <files>
+      <file src = "Caliburn.Micro.ReactiveUI\bin\Release\Caliburn.Micro.ReactiveUI.dll" target="lib\portable-net45+windowsphone8+WinRT45"/>
+      <file src = "Caliburn.Micro.ReactiveUI\bin\Release\Caliburn.Micro.ReactiveUI.xml" target="lib\portable-net45+windowsphone8+WinRT45"/>
+
+      <file src = "Caliburn.Micro.ReactiveUI\bin\Release\Caliburn.Micro.ReactiveUI.pdb" target="lib\portable-net45+windowsphone8+WinRT45"/>
+
+      <file src="Caliburn.Micro.ReactiveUI\Properties\*.cs" target="src\Properties" />
+      <file src="Caliburn.Micro.ReactiveUI\*.cs" target="src" />
+  </files>
+</package>
