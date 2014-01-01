@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		BuildAndPushToMyGet.ps1 = BuildAndPushToMyGet.ps1
 		Caliburn.Micro.ReactiveUI.nuspec = Caliburn.Micro.ReactiveUI.nuspec
+		README.txt = README.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{75FF064C-DBE6-4BF0-ABD7-140612AEC9EF}"
