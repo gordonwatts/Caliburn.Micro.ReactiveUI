@@ -7,6 +7,8 @@ namespace Caliburn.Micro.ReactiveUI
 {
     /// <summary>
     /// Get the ToProperty working correctly on Caliburn.Micro.
+    /// We had to rename ToProperty to ToPropertyCM because ReactiveUI uses
+    /// "object" as an argument which causes a conflict! Bummer!
     /// </summary>
     public static class ToPropertyHelpers
     {
@@ -26,7 +28,7 @@ namespace Caliburn.Micro.ReactiveUI
         /// <param name="This">The stream that will be used to back the property.</param>
         /// <returns>An initialized ObservableAsPropertyHelper; use this as the
         /// backing field for your property.</returns>
-        public static ObservableAsPropertyHelper<TRet> ToProperty<TObj, TRet>(
+        public static ObservableAsPropertyHelper<TRet> ToPropertyCM<TObj, TRet>(
             this IObservable<TRet> This,
             TObj source,
             Expression<Func<TObj, TRet>> property,
@@ -56,7 +58,7 @@ namespace Caliburn.Micro.ReactiveUI
         /// <param name="This">The source stream to push to the property.</param>
         /// <returns>An initialized ObservableAsPropertyHelper; use this as the
         /// backing field for your property.</returns>
-        public static ObservableAsPropertyHelper<TRet> ToProperty<TObj, TRet>(
+        public static ObservableAsPropertyHelper<TRet> ToPropertyCM<TObj, TRet>(
             this IObservable<TRet> This,
             TObj source,
             Expression<Func<TObj, TRet>> property,

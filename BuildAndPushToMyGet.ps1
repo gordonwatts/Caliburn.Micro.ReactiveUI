@@ -3,7 +3,7 @@
 #
 param([parameter(Mandatory = $true)][string] $ApiKey)
 
-$version="1.0.0-alpha02"
+$version="1.0.0-alpha03"
 
 set-alias nuget .\.nuget\nuget.exe
 
