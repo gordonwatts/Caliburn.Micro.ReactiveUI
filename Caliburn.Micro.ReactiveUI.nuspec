@@ -9,18 +9,18 @@
     <projectUrl>https://github.com/gordonwatts/Caliburn.Micro.ReactiveUI</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Some ease-of-use extensions to help with Caliburn.Micro and ReactiveUI</description>
-    <releaseNotes>First release</releaseNotes>
+    <releaseNotes>Bump reactive ui version number</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>ReactiveUI PCL</tags>
     <dependencies>
         <dependency id="Caliburn.Micro.Core" version="2.0.0-beta" />
-        <dependency id="reactiveui-core" version="5.99.3-beta" />
+        <dependency id="reactiveui-core" version="5.99.4-beta" />
         <dependency id="Rx-Core" version="2.2.2" />
         <dependency id="Rx-Interfaces" version="2.2.2" />
         <dependency id="Rx-Linq" version="2.2.2" />
         <dependency id="Rx-Main" version="2.2.2" />
         <dependency id="Rx-PlatformServices" version="2.2.3" />
-        <dependency id="Splat" version="1.2.0" />
+        <dependency id="Splat" version="1.2.1" />
     </dependencies>
   </metadata>
   <files>
