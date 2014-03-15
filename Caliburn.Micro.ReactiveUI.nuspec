@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Caliburn.Micro.ReactiveUI</id>
+    <id>Caliburn.Micro.ReactiveUI.Utils</id>
     <version>$version$</version>
     <authors>Gordon Watts</authors>
     <owners>Gordon Watts</owners>
     <licenseUrl>https://github.com/gordonwatts/CERNSSO/blob/master/license.txt</licenseUrl>
     <projectUrl>https://github.com/gordonwatts/Caliburn.Micro.ReactiveUI</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Some ease-of-use extensions to help with Caliburn.Micro and ReactiveUI</description>
-    <releaseNotes>Bump reactive ui version number</releaseNotes>
+    <description>Some ease-of-use extensions in the Caliburn.Micro.ReactiveUI namespace to help with Caliburn.Micro and ReactiveUI</description>
+    <releaseNotes>Bump reactive ui version number and alter package name for better compatibility</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>ReactiveUI PCL</tags>
     <dependencies>
